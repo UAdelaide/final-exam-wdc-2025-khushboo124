@@ -51,4 +51,6 @@ body {
 
 @keyframes flash {
   0% {background-color: red;}
+  25% {background-color: yellow;}
+  50% {background-color: red;}
 }
