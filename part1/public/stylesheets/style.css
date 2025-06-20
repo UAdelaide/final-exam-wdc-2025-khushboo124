@@ -69,5 +69,7 @@ next-button {
 
 .marquee-text {
   white-space: nowrap;
-  background: #fff;
+  background: #fff176;
+  overflow: hidden;
+  animation: marquee 10x;
 }
