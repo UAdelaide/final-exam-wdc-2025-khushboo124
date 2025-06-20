@@ -6,7 +6,10 @@ body, html {
     height: 100%;
 }
 
-
+.center-wrapper {
+    display: flex;
+    a
+}
 
 body {
     font-family: sans-serif;
