@@ -62,5 +62,8 @@ next-button {
   background-color: #c0436d;
   border: 2px dashed black;
   padding: 10px 20px;
-  font-size: ;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: ;
+
 }
