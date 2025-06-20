@@ -22,9 +22,10 @@ body {
   border: 5px dashed #4caf50;
   position: relative;
   height: 600px;
-  
-
+  z-index: 1;
+  overflow: hidden;
 }
+
 
 
 
