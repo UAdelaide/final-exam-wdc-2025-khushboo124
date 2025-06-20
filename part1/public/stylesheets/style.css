@@ -68,6 +68,7 @@ next-button {
 }
 
 .marquee-text {
+  color: black;
   white-space: nowrap;
   background: #fff176;
   overflow: hidden;
@@ -75,4 +76,5 @@ next-button {
   padding: 10px;
   border: 2px dotted #f44336;
   
+
 }
