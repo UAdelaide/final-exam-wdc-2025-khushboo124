@@ -7,7 +7,7 @@ const app = express();
 // Middleware
 //added//
 app.use(session({
-    
+    secret:
 }))
 app.use(express.json());
 app.use(express.static(path.join(__dirname, '/public')));
