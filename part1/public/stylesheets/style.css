@@ -18,7 +18,9 @@ body {
   margin: 15px auto;
   padding: 25px;
   text-align: center;
-  background-color: ;
+  background-color: #ffeb3b;
+  border: 5px dashed #4caf50;
+  
 
 }
 
