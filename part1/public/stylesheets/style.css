@@ -27,7 +27,7 @@ body {
 }
 
 .dog-image-container {
-  
+  max-height: ;
   position: relative;
 
 }
