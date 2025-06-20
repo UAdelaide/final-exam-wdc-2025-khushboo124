@@ -70,7 +70,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.get('/api/dogs', async (req, res) =>{
     try {
         const [rows] = await pool.execute(`
-            SELECT`)
+            SELECT
+            d.name AS dog_name,
+            d.size,
+            u.username AS owner_username
+            `)
     }
 })
 
