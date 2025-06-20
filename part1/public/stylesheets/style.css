@@ -2,8 +2,10 @@ body {
   padding: 50px;
   background: linear-gradient(90deg, red, yellow, green, blue);
   font-family: Comic Sans MS, cursive;
-  
+  animation: flash 1s infinite;
 }
+
+
 
 a {
   color: #00B7FF;
