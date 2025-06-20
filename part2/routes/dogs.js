@@ -4,6 +4,6 @@ const db = require('../models/db');
 
 router.get('/', async (req, res) => {
     if(!req.session.user) {
-        return 
+        return res.status(401).json({ error: })
     }
 })
