@@ -32,11 +32,14 @@ body {
   width: 95%;
   overflow: hidden;
   border: 3px solid #8bc34a;
-  box-shadow: 0 0 15px rgba(0, 0, 0,);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   position: relative;
-
 }
 
+.dog-image {
+  height: auto;
+  width: 100;
+}
 
 a {
   color: #00B7FF;
