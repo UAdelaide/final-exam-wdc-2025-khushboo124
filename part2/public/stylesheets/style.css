@@ -162,4 +162,7 @@ section {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.logout
+.logout-btn:hover {
+    background-color: red;
+    color: white;
+}
