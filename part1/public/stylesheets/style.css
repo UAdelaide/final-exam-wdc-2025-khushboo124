@@ -68,5 +68,6 @@ next-button {
 }
 
 .marquee-text {
-  
+  white-space: nowrap;
+  background: #fff;
 }
