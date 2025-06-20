@@ -4,7 +4,9 @@ const db = require('../models/db');
 
 router.get('/', async (req, res) => {
   try {
-   if (!)
+   if (!req.session.user){
+    return res.status(401).json
+   }
   } catch (error) {
     res.status(500).json({ error: 'Failed to fetch users' });
   }
