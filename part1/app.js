@@ -83,9 +83,11 @@ app.get('/api/dogs', async (req, res) =>{
 
     } catch (error) {
         console.error('Error Fetching Dogs:', error);
-        res.status(500).json({ message: 'I'})
+        res.status(500).json({ message: 'Server Internal Error', error: error.message });
     }
-})
+});
+
+
 
 
 app.use('/', indexRouter);
