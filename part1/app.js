@@ -66,7 +66,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //API Routes
 
-
+// api/dogs
+app.get
 
 
 app.use('/', indexRouter);
