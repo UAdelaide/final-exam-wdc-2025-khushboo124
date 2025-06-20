@@ -60,7 +60,7 @@
 
         async function applyToWalk(requestId) {
           try {
-            const res = await getCurrentUser(); //GET THE CURRENT ID OF USER
+            const walkerId = await getCurrentUser(); //GET THE CURRENT ID OF USER
               if (!walkerId) {
                 throw new Error ('Walker ID Not Found');
               }
