@@ -78,7 +78,9 @@ next-button {
   color: white;
   background: black;
   font-size: 1.0rem;
-  
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 5px ;
 }
 
 .marquee-text {
