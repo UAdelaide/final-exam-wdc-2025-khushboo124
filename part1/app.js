@@ -16,7 +16,9 @@ const DB_PASSWORD = '';
 
 const pool = mysql.createPool ({
     host: DB_HOST,
-    user
+    user: DB_USER,
+    password: DB_PASSWORD,
+    da
 })
 
 app.use(logger('dev'));
