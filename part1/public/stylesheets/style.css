@@ -71,5 +71,7 @@ next-button {
   white-space: nowrap;
   background: #fff176;
   overflow: hidden;
-  animation: marquee 10x;
+  animation: marquee 10s linear infinite;
+  padding: 10px;
+  border: 2px dotted #f;
 }
