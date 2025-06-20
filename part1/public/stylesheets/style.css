@@ -75,6 +75,8 @@ next-button {
   animation: marquee 10s linear infinite;
   padding: 10px;
   border: 2px dotted #f44336;
-  
+}
 
+@keyframes marquee {
+  
 }
