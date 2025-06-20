@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  padding: 50px;
+  padding: 60px;
   background: linear-gradient(90deg, red, yellow, green, blue);
   font-family: 'Comic Sans MS', cursive, sans-serif;
   animation: flash 1s infinite;
