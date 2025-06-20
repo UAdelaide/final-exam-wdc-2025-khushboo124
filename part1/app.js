@@ -9,7 +9,8 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 var app = express();
-// Hardco
+// Hardcoded just for example, needs to be present in .env file //
+const DB_HOST
 
 app.use(logger('dev'));
 app.use(express.json());
