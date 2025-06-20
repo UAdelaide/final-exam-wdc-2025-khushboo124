@@ -162,3 +162,7 @@ section {
     align-items: center;
     flex-direction: column;
 }
+
+html, body {
+    height: 100%;
+}
