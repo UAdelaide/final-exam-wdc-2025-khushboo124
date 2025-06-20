@@ -7,7 +7,8 @@ router.get('/', async (req, res) => {
    if (!req.session.user){
     return res.status(401).json({ error: 'Not logged in'});
    }
-   const owner_id
+   const ownerId = req.session.user.user_id;
+   const [rows] = await db.query
   } catch (error) {
     res.status(500).json({ error: 'Failed to fetch users' });
   }
