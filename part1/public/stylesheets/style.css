@@ -60,5 +60,7 @@ body {
 next-button {
   color: white;
   background-color: #c0436d;
-  
+  border: 2px dashed black;
+  padding: 10px 20px;
+  font-size: ;
 }
