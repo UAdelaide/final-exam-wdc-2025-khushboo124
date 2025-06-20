@@ -14,6 +14,10 @@ const DB_HOST = 'localhost';
 const DB_USER = 'root';
 const DB_PASSWORD = '';
 
+const pool = mysql.createPool ({
+    host: DB_HOST,
+    user
+})
 
 app.use(logger('dev'));
 app.use(express.json());
