@@ -49,3 +49,6 @@ body {
   top: 50%;
 }
 
+@keyframes flash {
+  0% {background-color: red;}
+}
