@@ -69,14 +69,14 @@ next-button {
 
 .small-buttons-containers {
   display: flex;
-  margin: 18px 0;
-  gap: 18px;
+  margin: 17px 0;
+  gap: 17px;
   justify-content: center;
 }
 
 .small-button {
   color: white;
-  background: rgb(13, 164, 124);
+  background: rgb(46, 13, 164);
   font-size: 1.0rem;
   cursor: pointer;
   border-radius: 6px;
