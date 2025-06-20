@@ -39,7 +39,11 @@ async function initializeDatabase() {
 
         const sqlScript = await fs.readFile('./dogwalks.sql', 'utf8');
 
-        const sqlScript = await fs.readFile('./dogwalks.sql', 'utf8')
+        const sqlScript = await fs.readFile('./dogwalks.sql', 'utf8');
+
+        await connection.query(sqlScript);
+
+        console.log('Da')
     }
 
 }
