@@ -31,8 +31,11 @@ async function initializeDatabase() {
         connection = await mysql.createConnection({
             host: DB_HOST,
             user: DB_USER,
-            password: DB
-        })
+            password: DB_PASSWORD,
+            multipleStatements: true
+        });
+
+        console.log('Connected to Mysql ')
     }
 
 }
