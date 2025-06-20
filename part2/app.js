@@ -8,7 +8,8 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(express.static(path.join(__dirname, '/public')));
-app.use('/api/dogs', require('/'))
+app.use('/api/dogs', require('./routes/dogs'));
+
 app.use(session({
     secret: 'my-key',
     resave: false,
