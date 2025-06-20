@@ -80,7 +80,7 @@
         async function getCurrentUser() {
           try {
             const res = await fetch('/api/users/me',  {credentials: 'include'})
-            if ()
+            if (!res.ok) throw new Eror()
           }
 
         }
