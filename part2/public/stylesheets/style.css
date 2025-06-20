@@ -11,7 +11,7 @@ body, html {
     align-items: center;
     padding-top: 4em;
     justify-content: center;
-    height: calc()
+    height: calc(100vh-60px)
 }
 
 body {
