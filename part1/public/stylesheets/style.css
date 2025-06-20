@@ -1,12 +1,13 @@
 html {
-  font-size: 1;
+  font-size: 16px !important;
 }
 
 body {
   padding: 50px;
   background: linear-gradient(90deg, red, yellow, green, blue);
-  font-family: Comic Sans MS, cursive;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
   animation: flash 1s infinite;
+  overf
 }
 
 
