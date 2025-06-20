@@ -27,7 +27,10 @@ body {
 }
 
 .dog-image-container {
-  max-height: ;
+  max-height: 300px;
+  margin: 20px auto;
+  width: 95%;
+  
   position: relative;
 
 }
