@@ -10,7 +10,9 @@ var usersRouter = require('./routes/users');
 
 var app = express();
 // Hardcoded just for example, needs to be present in .env file //
-const DB_HOST
+const DB_HOST = 'localhost';
+const DB_USER = 'root';
+const
 
 app.use(logger('dev'));
 app.use(express.json());
