@@ -68,6 +68,10 @@ next-button {
 }
 
 .small-buttons-containers {
+  display: flex;
+  margin: 15px 0;
+  gap: 15px;
+  justify-content: center;
   
 }
 
