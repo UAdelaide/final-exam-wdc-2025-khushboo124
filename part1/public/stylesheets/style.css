@@ -44,7 +44,10 @@ body {
   opacity: 0.7;
 }
 
-
+.image-overlay-text {
+  position: absolute;
+  
+}
 a {
   color: #00B7FF;
 }
