@@ -74,6 +74,11 @@ next-button {
   justify-content: center;
 }
 
+.small-button {
+  color: white;
+  
+}
+
 .marquee-text {
   color: black;
   white-space: nowrap;
