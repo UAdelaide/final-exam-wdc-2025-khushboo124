@@ -127,7 +127,8 @@
             if(!res.ok) throw new Error(result.error || 'Logout Failed');
             window.location.href = '/';
           } catch (err){
-            error.value = err.message
+            error.value = err.message;
+            message.value = '';
           }
         }
 
@@ -142,6 +143,10 @@
           error,
           submitWalkRequest
         };
+
+        return {
+          form
+        }
       }
     }).mount('#app');
   </script>
