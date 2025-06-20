@@ -36,7 +36,6 @@ router.get('/me', (req, res) => {
 });
 
 // POST login
-const bcrypt = require('bcrypt');
 router.post('/login', async (req, res) => {
   const { username, password } = req.body;
 
