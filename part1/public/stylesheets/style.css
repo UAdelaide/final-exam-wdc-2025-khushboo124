@@ -20,6 +20,8 @@ body {
   text-align: center;
   background-color: #ffeb3b;
   border: 5px dashed #4caf50;
+  position: relative;
+  height: 600px;
   
 
 }
