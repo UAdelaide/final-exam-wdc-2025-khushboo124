@@ -7,7 +7,10 @@ body {
   background: linear-gradient(90deg, red, yellow, green, blue);
   font-family: 'Comic Sans MS', cursive, sans-serif;
   animation: flash 1s infinite;
-  overf
+  overflow-x: hidden;
+  background-color: #f7a072;
+  position: relative;
+  min-height: 150vh;
 }
 
 
