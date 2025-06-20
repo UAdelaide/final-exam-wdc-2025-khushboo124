@@ -94,7 +94,13 @@ next-button {
   font-size: 1.0rem;
 }
 
-.
+.left-panel {
+  left: 0;
+}
+
+.right-panel {
+  right: 0;
+}
 .marquee-text {
   color: black;
   white-space: nowrap;
