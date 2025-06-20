@@ -12,7 +12,8 @@ var app = express();
 // Hardcoded just for example, needs to be present in .env file //
 const DB_HOST = 'localhost';
 const DB_USER = 'root';
-const
+const DB_PASSWORD = '';
+const DB_PORT = 
 
 app.use(logger('dev'));
 app.use(express.json());
