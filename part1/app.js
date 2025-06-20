@@ -46,7 +46,8 @@ async function initializeDatabase() {
         console.log('Database initialised and populated successfully from dogwalks.sql file');
 
     } catch (error){
-        console.error('Database initialisation Failed!')
+        console.error('Database initialisation Failed! Ensure mysql server is running.');
+        console.error('Error details:')
     }
 
 }
