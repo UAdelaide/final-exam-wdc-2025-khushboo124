@@ -50,10 +50,14 @@ async function initializeDatabase() {
         console.error('Error details: ', error);
         process.exit(1);
     } finally {
-        if (connection)
+        if (connection) {
+            await connection.end();
+        }
     }
 
 }
+
+//Middleware setup Express
 
 app.use(logger('dev'));
 app.use(express.json());
