@@ -26,7 +26,11 @@ body {
   overflow: hidden;
 }
 
+.dog-image-container {
+  
+  position: relative;
 
+}
 
 
 a {
