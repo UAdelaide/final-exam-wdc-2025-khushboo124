@@ -76,6 +76,8 @@ next-button {
 
 .small-button {
   color: white;
+  background: black;
+  font-size: 1.0rem;
   
 }
 
