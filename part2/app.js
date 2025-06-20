@@ -9,13 +9,16 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, '/public')));
 
 app.use(session({
-    secret:
+    secret: 'my-key',
+    resave: false,
+    saveUninitialized: truncateSync,
 }))
 
 
 // Routes
 const walkRoutes = require('./routes/walkRoutes');
 const userRoutes = require('./routes/userRoutes');
+const { truncateSync } = require('fs');
 
 app.use('/api/walks', walkRoutes);
 app.use('/api/users', userRoutes);
