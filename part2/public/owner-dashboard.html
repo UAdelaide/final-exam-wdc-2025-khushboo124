@@ -88,6 +88,8 @@
           try {
             const res = await fetch('/api/owner/dogs');
             if (!res.ok) throw new Error('Failed fetching dogs');
+            dogs.value = await res.json();
+          } catch (err){
             
           }
         }
