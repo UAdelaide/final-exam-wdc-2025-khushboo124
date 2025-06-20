@@ -86,7 +86,10 @@ next-button {
 .side-panel {
   width: 200px;
   position: absolute;
-  to
+  top:0;
+  height: 100vh;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.8);
 }
 .marquee-text {
   color: black;
