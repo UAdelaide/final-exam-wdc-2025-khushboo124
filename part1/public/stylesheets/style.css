@@ -1,6 +1,6 @@
 body {
   padding: 50px;
-  background-color: ;
+  background: linear-gradient(90deg, red, yellow, green, blue);
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
