@@ -43,7 +43,10 @@ async function initializeDatabase() {
 
         await connection.query(sqlScript);
 
-        console.log('Database initialised and populated successfully from dogwalks.sql file')
+        console.log('Database initialised and populated successfully from dogwalks.sql file');
+
+    } catch (error){
+        
     }
 
 }
