@@ -108,7 +108,8 @@ app.get('/api/walkrequests/open', async (req, res) => {
         `);
         res.json(rows);
     } catch (error) {
-        console.error('Error Fetching Open Walk Requests')
+        console.error('Error Fetching Open Walk Requests:', error);
+        res.status(500).json({ message: 'Internal Error of Server'})
     }
 })
 
