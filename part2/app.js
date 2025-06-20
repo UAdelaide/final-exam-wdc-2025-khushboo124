@@ -4,6 +4,7 @@ require('dotenv').config();
 const session = require('express-session'); //added
 const app = express();
 
+const dogRoutes = require('./routes/dogRoutes');
 
 // Middleware
 app.use(express.json());
