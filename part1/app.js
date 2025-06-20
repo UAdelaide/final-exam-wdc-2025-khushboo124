@@ -60,7 +60,9 @@ async function initializeDatabase() {
 //Middleware setup Express
 app.use(logger('dev'));
 app.use(express.json());
-app.use(express.urlencoded({})
+app.use(express.urlencoded({ extended: false }));
+
+
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
