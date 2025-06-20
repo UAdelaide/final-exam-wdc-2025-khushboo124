@@ -5,13 +5,6 @@ const session = require('express-session') //added
 const app = express();
 
 // Middleware
-//added//
-// app.use(session({
-//     secret: 'mykey',
-//     resave: false,
-//     saveUninitialized: true,
-//     cookie: { secure: false}
-// }));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, '/public')));
 
