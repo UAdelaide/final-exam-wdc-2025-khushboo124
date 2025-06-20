@@ -122,7 +122,9 @@
               method: 'POST',
               credentials: 'include'
             });
-            const 
+            const result = await res.json();
+
+            if(!res.ok) throw new Error(result.error)
           }
         }
 
