@@ -19,8 +19,13 @@ const pool = mysql.createPool ({
     host: DB_HOST,
     user: DB_USER,
     password: DB_PASSWORD,
-    da
-})
+    database: DB_DATABASE,
+    waitForConnections: true,
+    connectionLimit: 10,
+    queueLimit: 0
+});
+
+
 
 app.use(logger('dev'));
 app.use(express.json());
