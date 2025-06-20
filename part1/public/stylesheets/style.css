@@ -76,7 +76,7 @@ next-button {
 
 .small-button {
   color: white;
-  background: black;
+  background: rgb(13, 164, 124);
   font-size: 1.0rem;
   cursor: pointer;
   border-radius: 6px;
