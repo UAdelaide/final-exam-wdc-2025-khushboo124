@@ -7,6 +7,7 @@ const app = express();
 const dogRoutes = require('./routes/dogRoutes');
 
 // Middleware
+app.use('/api/dogs', dogRoutes);
 app.use(express.json());
 app.use(express.static(path.join(__dirname, '/public')));
 
