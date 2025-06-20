@@ -47,7 +47,10 @@ async function initializeDatabase() {
 
     } catch (error){
         console.error('Database initialisation Failed! Ensure mysql server is running.');
-        console.error('Error details:')
+        console.error('Error details: ', error);
+        process.exit(1);
+    } finally {
+        if (connection)
     }
 
 }
