@@ -5,6 +5,10 @@ const session = require('express-session') //added
 const app = express();
 
 // Middleware
+//added//
+app.use(session({
+    
+}))
 app.use(express.json());
 app.use(express.static(path.join(__dirname, '/public')));
 
