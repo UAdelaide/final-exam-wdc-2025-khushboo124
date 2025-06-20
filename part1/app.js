@@ -25,7 +25,10 @@ const pool = mysql.createPool ({
     queueLimit: 0
 });
 
+async function initializeDatabase() {
+    
 
+}
 
 app.use(logger('dev'));
 app.use(express.json());
