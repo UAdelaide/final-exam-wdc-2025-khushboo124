@@ -114,6 +114,7 @@ app.get('/api/walkrequests/open', async (req, res) => {
 });
 
 app.get('/api/walkers/summary', async (req, res) => {
+    try {
     const [rows] = await pool.execute(`
         SELECT
         u.username AS walker_username,
@@ -127,7 +128,8 @@ app.get('/api/walkers/summary', async (req, res) => {
         WHERE u.role = 'walker'
         GROUP BY u.username
         `);
-        
+        res.json(rows);
+    }
 });
 
 
