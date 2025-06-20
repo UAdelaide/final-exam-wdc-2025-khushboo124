@@ -106,7 +106,9 @@ app.get('/api/walkrequests/open', async (req, res) => {
             WHERE
                 wr.status = 'open';
         `);
-        
+        res.json(rows);
+    } catch (error) {
+        console.error('Error Fetching Open Walk Requests')
     }
 })
 
