@@ -28,7 +28,11 @@ const pool = mysql.createPool ({
 async function initializeDatabase() {
     let connection;
     try {
-        connection = await mysql.createConnection
+        connection = await mysql.createConnection({
+            host: DB_HOST,
+            user: DB_USER,
+            password: DB
+        })
     }
 
 }
