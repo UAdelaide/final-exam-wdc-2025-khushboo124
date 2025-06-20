@@ -5,8 +5,9 @@ const db = require('../models/db');
 router.get('/', async (req, res) => {
   try {
    if (!req.session.user){
-    return res.status(401).json({ error: 'Not logged in'})
+    return res.status(401).json({ error: 'Not logged in'});
    }
+   const owner_id
   } catch (error) {
     res.status(500).json({ error: 'Failed to fetch users' });
   }
