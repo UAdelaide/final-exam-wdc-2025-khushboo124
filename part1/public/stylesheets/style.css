@@ -69,10 +69,9 @@ next-button {
 
 .small-buttons-containers {
   display: flex;
-  margin: 15px 0;
-  gap: 15px;
+  margin: 18px 0;
+  gap: 18px;
   justify-content: center;
-  
 }
 
 .marquee-text {
