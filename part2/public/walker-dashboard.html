@@ -57,7 +57,7 @@
             const userData = await response.json();
             return userData.user_id;
           } catch (error) {
-            
+            console.error('Error fetching current user:', error)
           }
         }
 
