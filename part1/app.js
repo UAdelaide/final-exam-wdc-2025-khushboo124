@@ -35,7 +35,9 @@ async function initializeDatabase() {
             multipleStatements: true
         });
 
-        console.log('Connected to Mysql ')
+        console.log('Connected to Mysql server for database initialization.');
+
+        const sqlScript = await fs.readFile('./dogwalks.sql', ;)
     }
 
 }
