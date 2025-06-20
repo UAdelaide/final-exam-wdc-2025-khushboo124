@@ -115,7 +115,9 @@ app.get('/api/walkrequests/open', async (req, res) => {
 
 app.get('/api/walkers/summary', async (req, res) => {
     const [rows] = await pool.execute(`
-        `)
+        SELECT
+        u.username AS walker_username,
+        COALESCE(cw.completed_walks)`)
 });
 
 
