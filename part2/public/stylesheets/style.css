@@ -160,8 +160,5 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-html, body {
-    height: 100%;
+    flex-direction: column;
 }
