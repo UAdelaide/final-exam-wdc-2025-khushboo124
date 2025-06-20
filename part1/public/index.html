@@ -33,7 +33,9 @@
             <div class="dog-image-container">
                 <img src="dogImage" alt="A random dog picture" class="dog-image">
                 <div class="image-overlay-text" style="color: #ffff00; background-color: rgba(0,0,0,0.7);">
-                    Meet {{dogName}}
+                    Meet {{dogName || 'Loading...'}}!
+                    <br>
+                    Breed: {}
                 </div>
             </div>
         </div>
