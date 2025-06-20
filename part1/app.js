@@ -37,7 +37,9 @@ async function initializeDatabase() {
 
         console.log('Connected to Mysql server for database initialization.');
 
-        const sqlScript = await fs.readFile('./dogwalks.sql', ;)
+        const sqlScript = await fs.readFile('./dogwalks.sql', 'utf8');
+
+        const sqlScript = await fs.readFile('./dogwalks.sql', 'utf8')
     }
 
 }
