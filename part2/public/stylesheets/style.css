@@ -8,7 +8,10 @@ body, html {
 
 .center-wrapper {
     display: flex;
-    a
+    align-items: center;
+    padding-top: 4em;
+    justify-content: center;
+    min-height: ;
 }
 
 body {
