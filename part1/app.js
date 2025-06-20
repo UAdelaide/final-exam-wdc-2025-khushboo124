@@ -26,7 +26,10 @@ const pool = mysql.createPool ({
 });
 
 async function initializeDatabase() {
-    
+    let connection;
+    try {
+        connection = await mysql.createConnection
+    }
 
 }
 
