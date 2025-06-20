@@ -54,7 +54,10 @@
             if(!response.ok){
               throw new Error('Failed to fetch current user');
             }
-            const userData = await response.json
+            const userData = await response.json();
+            return userData.user_id;
+          } catch (error) {
+            
           }
         }
 
