@@ -25,7 +25,9 @@ router.get('/mine', async (req, res) => {
   const ownerId = req.session.user.user_id;
 
   try {
-    
+    const [rows] = await.db.query(
+      'Select dog_id, name AS dog_name'
+    )
   }
 })
 
