@@ -111,7 +111,8 @@
 
             this.dogs = await Promise.all(dogPromises);
           } catch (error) {
-            console.error('Error ')
+            console.error('Error fetching dogs:', error);
+            this.error = 'Failed to load dogs'
           }
 
         }
