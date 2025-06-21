@@ -8,7 +8,7 @@ router.get('/', async (req, res) => {
     return res.status(401).json({error: 'Not logged in'});
   }
 
-  const ownerId = req.session.user.user_id;
+  // const ownerId = req.session.user.user_id;
 
   try {
     const [rows] = await db.query(`
