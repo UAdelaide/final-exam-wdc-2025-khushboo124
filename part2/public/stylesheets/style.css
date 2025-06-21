@@ -166,7 +166,3 @@ section {
     background-color: red;
     color: white;
 }
-
-table tbody tr:nth-child(even) {
-    background-color: #dddddd;
-}
