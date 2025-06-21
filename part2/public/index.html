@@ -97,7 +97,9 @@
             let dogsData = await response.json();
 
             //FETCH RANDOM DOG PHOTOS
-            const dogPromises = dogsData
+            const dogPromises = dogsData.map(async (dog) => {
+              
+            })
           }
 
         }
