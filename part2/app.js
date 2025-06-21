@@ -19,12 +19,12 @@ app.use(session({
 // Routes
 const walkRoutes = require('./routes/walkRoutes');
 const userRoutes = require('./routes/userRoutes');
-const { truncateSync } = require('fs');
-const dogRoutes = require('./routes/dogRoutes');
+const { truncateSync } = require('fs'); //added
+const dogRoutes = require('./routes/dogRoutes'); //added for new dogRoutes.js file
 
 app.use('/api/walks', walkRoutes);
 app.use('/api/users', userRoutes);
-app.use('/api/dogs', dogRoutes);
+app.use('/api/dogs', dogRoutes); //added for new dogRoutes.js file
 
 // Export the app instead of listening here
 module.exports = app;
