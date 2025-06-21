@@ -19,7 +19,13 @@ router.get('/', async (req, res) => {
 
 router.get('/mine', async (req, res) => {
   if (!req.session.user) {
-    return res.status(401).json({error: })
+    return res.status(401).json({error: 'Not logged in'});
+  }
+
+  const ownerId = req.session.user.user_id;
+
+  try {
+    
   }
 })
 
