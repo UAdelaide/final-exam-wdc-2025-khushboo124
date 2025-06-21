@@ -94,7 +94,8 @@
             if(!response.ok) {
               throw new Error(`HTTP error. status: ${response.status}`);
             }
-            let
+            let dogsData = await response.json();
+            
           }
 
         }
