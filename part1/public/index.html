@@ -92,7 +92,8 @@
                     const breedSlug = parts[breedIndex];
                     const breed= breedSlug.includes('-') ?
                         breedSlug.spilt('-').reverse().join(' ') : breedSlug;
-                    this
+                    this.dogBreed = breed;
+                    this.dogName = this.generateDogName();
                 }
             }
         }).mount('#app');
