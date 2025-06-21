@@ -70,7 +70,8 @@ next-button {
   display: flex;
   margin: 17px 0;
   gap: 17px;
-  justify-content: center;
+  justify-content: right;
+  height: top;
 }
 
 .small-button {
