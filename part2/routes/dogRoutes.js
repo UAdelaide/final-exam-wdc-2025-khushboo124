@@ -17,6 +17,6 @@ router.get('/', async (req, res) => {
   }
 });
 
-
+router.get('/mine')
 
 module.exports = router;
