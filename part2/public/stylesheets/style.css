@@ -8,6 +8,18 @@ body {
     padding-top: 60px;
 }
 
+  body {
+      font-family: sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    #app{
+      max-width: 590px;
+      margin: 0px auto;
+      background: #ffffff;
+      padding: 10px;
+      border-radius: 8px;
+    }
 
 header {
     background-color: rgb(250, 250, 251);
