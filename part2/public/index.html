@@ -104,9 +104,12 @@
                 dog.imageUrl = imageData.message;
               } catch (error) {
                 console.error('Error Fetching Dog Image:', imgError);
-                dog.imageUrl = ''
+                dog.imageUrl = '';
               }
-            })
+              return dog;
+            });
+
+            
           }
 
         }
