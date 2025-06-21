@@ -104,7 +104,7 @@ next-button {
 .marquee-text {
   color: black;
   white-space: nowrap;
-  background: #fff176;
+  background: #ffd476;
   overflow: hidden;
   animation: marquee 10s linear infinite;
   padding: 10px;
