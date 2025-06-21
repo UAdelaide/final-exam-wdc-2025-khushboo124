@@ -38,7 +38,7 @@ body {
 .dog-image {
   height: auto;
   width: 100%;
-  min-height: 200px;
+  min-height: 210px;
   object-fit: cover;
   opacity: 0.7;
 }
