@@ -87,7 +87,7 @@
                     this.dogImage = data.message;
 
                     //GET BREED
-                    const parts = data.message.spilt('/');
+                    const parts = data.message.split('/');
                     const breedIndex = parts.indexOf('breeds') + 1;
                     const breedSlug = parts[breedIndex];
                     const breed= breedSlug.includes('-') ?
