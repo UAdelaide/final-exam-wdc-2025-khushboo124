@@ -26,9 +26,11 @@ router.get('/mine', async (req, res) => {
 
   try {
     const [rows] = await.db.query(
-      'Select dog_id, name AS dog_name'
-    )
-  }
+      'Select dog_id, name AS dog_name, size FROM Dogs WHERE owner_id = ?',
+      [ownerId]
+    );
+    res.json(rows);
+  } catch (error)
 })
 
 module.exports = router;
