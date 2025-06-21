@@ -103,7 +103,8 @@
                 const imageData = await dogImageResponse.json();
                 dog.imageUrl = imageData.message;
               } catch (error) {
-                console.error('Error Fetching Dog Image:', )
+                console.error('Error Fetching Dog Image:', imgError);
+                dog.imageUrl = ''
               }
             })
           }
