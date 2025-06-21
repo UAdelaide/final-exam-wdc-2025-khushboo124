@@ -155,7 +155,7 @@ section {
     display: none;
 }
 
-.logout-btn {
+.btn-danger{
     background-color: transparent;
     color: red;
     border: 1px solid red;
@@ -165,8 +165,4 @@ section {
 .logout-btn:hover {
     background-color: red;
     color: white;
-}
-
-.btn-danger {
-    
 }
