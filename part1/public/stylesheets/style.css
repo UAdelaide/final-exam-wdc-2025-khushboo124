@@ -85,9 +85,9 @@ next-button {
 .side-panel {
   width: 140px;
   position: absolute;
-  top:0;
+  top:5;
   height: 50vh;
-  padding: 10px;
+  padding: 20px;
   background: rgba(255, 255, 255, 0.8);
   z-index: 0;
   font-size: 1.0rem;
