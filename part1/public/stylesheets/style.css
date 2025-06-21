@@ -44,7 +44,7 @@ body {
 }
 
 .image-overlay-text {
-  position: absolute;
+  position: center;
   top: 50%;
 }
 
