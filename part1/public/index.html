@@ -90,7 +90,8 @@
                     const parts = data.message.spilt('/');
                     const breedIndex = parts.indexOf('breeds') + 1;
                     const breedSlug = parts[breedIndex];
-                    const breed= breedSlug.includes
+                    const breed= breedSlug.includes('-') ?
+                        breedSlug.spilt('-')
                 }
             }
         }).mount('#app');
