@@ -30,7 +30,10 @@ router.get('/mine', async (req, res) => {
       [ownerId]
     );
     res.json(rows);
-  } catch (error)
+  } catch (error) {
+    console.error('Error fetching owner');
+    res.status(500).json({error: 'failed'})
+  }
 })
 
 module.exports = router;
