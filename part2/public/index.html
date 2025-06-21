@@ -92,8 +92,9 @@
           try {
             const response = await fetch('/api/dogs');
             if(!response.ok) {
-              throw new Error(`HTTP error. status: )
+              throw new Error(`HTTP error. status: ${response.status}`);
             }
+            let
           }
 
         }
