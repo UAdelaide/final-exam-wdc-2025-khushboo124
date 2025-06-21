@@ -11,7 +11,18 @@
 
   <div id="app" class="container py-5">
     <hr class="my-5">
-    <h2 class="mt-5 mb-3">All Registered Dogs</h2>
+    <h1 class="mb-4 text-primary">{{ message }}</h1>
+    <!-- <p class="lead">Connect with trusted walkers for your beloved dog!</p> -->
+    <form @submit.prevent="login">
+      <div class="mb-3">
+        <input type="text" v-model="username" class="form-control" placeholder="Username" required>
+      </div>
+      <div class="mb-3">
+        <input v-model="password" type="password" class="form-control" placeholder="Password" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Log In</button>
+    </form>
+     <h2 class="mt-5 mb-3">All Registered Dogs</h2>
     <table class="table table-bordered table-hover">
       <thead class="table-light">
         <tr>
@@ -34,17 +45,6 @@
         </tr>
       </tbody>
     </table>
-    <h1 class="mb-4 text-primary">{{ message }}</h1>
-    <!-- <p class="lead">Connect with trusted walkers for your beloved dog!</p> -->
-    <form @submit.prevent="login">
-      <div class="mb-3">
-        <input type="text" v-model="username" class="form-control" placeholder="Username" required>
-      </div>
-      <div class="mb-3">
-        <input v-model="password" type="password" class="form-control" placeholder="Password" required>
-      </div>
-      <button type="submit" class="btn btn-primary">Log In</button>
-    </form>
     <p class="text-danger mt-2" v-if="error">{{ error }}</p>
     <a href="owner-dashboard.html"></a>
     <a href="walker-dashboard.html"></a>
