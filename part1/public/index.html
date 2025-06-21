@@ -89,7 +89,8 @@
                     //GET BREED
                     const parts = data.message.spilt('/');
                     const breedIndex = parts.indexOf('breeds') + 1;
-                    const breedSlug = parts[]
+                    const breedSlug = parts[breedIndex];
+                    const breed= breedSlug.includes
                 }
             }
         }).mount('#app');
