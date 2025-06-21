@@ -21,14 +21,16 @@
     </div>
 
     <div id="app">
+        <div class="small-buttons-containers">
+                <div class="small-button" @click="doNothing">Like</div>
+                <div class="small-button" @click="doNothing">Share</div>
+            </div>
+
         <div class="dog-section">
             <h2>Dog of the Day</h2>
             <p> {{ description }}</p>
 
-            <div class="small-buttons-containers">
-                <div class="small-button" @click="doNothing">Like</div>
-                <div class="small-button" @click="doNothing">Share</div>
-            </div>
+
 
             <div class="dog-image-container">
                 <img :src="dogImage" alt="A random dog picture" class="dog-image">
