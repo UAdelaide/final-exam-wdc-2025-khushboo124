@@ -10,7 +10,7 @@ router.get('/', async (req, res) => {
    }
    const ownerId = req.session.user.user_id;
 //    const [rows] = await db.query('Select dog_id, name AS dog_name, size FROM Dogs  (removed this line)WHERE owner_id =?', [ownerId]);
-   const [rows] = await db.query('Select dog_id, name AS dog_name, size FROM Dogs , [ownerId]);
+   const [rows] = await db.query('Select dog_id, name AS dog_name, size FROM Dogs);
 
    res.json(rows);
   } catch (error) {
