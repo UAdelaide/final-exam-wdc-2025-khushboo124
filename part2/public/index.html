@@ -112,10 +112,12 @@
             this.dogs = await Promise.all(dogPromises);
           } catch (error) {
             console.error('Error fetching dogs:', error);
-            this.error = 'Failed to load dogs'
+            this.error = 'Failed to load dogs';
           }
-
         }
+      },
+      mounted(){
+        this.fe
       }
     }).mount('#app');
   </script>
