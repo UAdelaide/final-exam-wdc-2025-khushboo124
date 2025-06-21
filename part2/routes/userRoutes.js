@@ -51,13 +51,13 @@ router.post('/login', async (req, res) => {
 
 
     //added line to store session
-    const user = rows[0]
+    const user = rows[0];
     req.session.user = {
       user_id: user.user_id,
       username: user.username,
       role: user.role
     };
-    user_id:
+
     res.json({ message: 'Login successful', user: rows[0] });
   } catch (error) {
     res.status(500).json({ error: 'Login failed' });
