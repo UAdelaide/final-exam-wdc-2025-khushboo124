@@ -91,7 +91,7 @@
         async fetchAllDogs() {
           try {
             const response = await fetch('/api/dogs', {
-              credentials: 'include'
+              credentials: 'include' //credentials added
             });
 
             if(!response.ok) {
