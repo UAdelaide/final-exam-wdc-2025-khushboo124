@@ -167,3 +167,6 @@ section {
     color: white;
 }
 
+table tbody tr:nth-child(even) {
+    
+}
