@@ -23,7 +23,9 @@
         </tr>
       </thead>
       <tbody>
-        <tr v-for="dog in dogs" :
+        <tr v-for="dog in dogs" :key="dog.dog_id">
+          <td{{ dog.dog_id }}</
+        </tr>
       </tbody>
     </table>
     <h1 class="mb-4 text-primary">{{ message }}</h1>
