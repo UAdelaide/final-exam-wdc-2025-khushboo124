@@ -110,6 +110,8 @@
             });
 
             this.dogs = await Promise.all(dogPromises);
+          } catch (error) {
+            console.error('Error ')
           }
 
         }
