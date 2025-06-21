@@ -95,7 +95,9 @@
               throw new Error(`HTTP error. status: ${response.status}`);
             }
             let dogsData = await response.json();
-            
+
+            //FETCH RANDOM DOG PHOTOS
+            const dogPromises = dogsData
           }
 
         }
