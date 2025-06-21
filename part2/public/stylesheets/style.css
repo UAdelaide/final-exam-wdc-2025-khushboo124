@@ -156,9 +156,9 @@ section {
 }
 
 .logout-btn {
+    background-color: transparent;
     color: red;
     border: 1px solid red;
-    background-color: transparent;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
