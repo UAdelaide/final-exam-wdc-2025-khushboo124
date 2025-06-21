@@ -32,8 +32,8 @@ router.get('/mine', async (req, res) => {
     res.json(rows);
   } catch (error) {
     console.error('Error fetching owner');
-    res.status(500).json({error: 'failed'})
+    res.status(500).json({error: 'failed fetch owners'});
   }
-})
+});
 
 module.exports = router;
