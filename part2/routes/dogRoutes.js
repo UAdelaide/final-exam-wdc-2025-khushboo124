@@ -4,7 +4,7 @@ const db = require('../models/db');
 
 router.get('/', async (req, res) => {
   try {
-    //commented to test and display images of dogs on home page
+    // commented to test and display images of dogs on home page
 //    if (!req.session.user){
 //     return res.status(401).json({ error: 'Not logged in'});
 //    }
