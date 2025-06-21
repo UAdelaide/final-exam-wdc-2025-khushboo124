@@ -109,7 +109,7 @@
               return dog;
             });
 
-            
+            this.dogs = await Promise.all(dogPromises);
           }
 
         }
